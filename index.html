@@ -1,110 +1,127 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shashwat Sinha | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Shashwat Kumar Sinha — Software Developer focused on Java, full-stack development, AI, and computer vision." />
+  <title>Shashwat Kumar Sinha | Software & AI Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Shashwat home"><span class="brand-mark">S</span><span>Shashwat<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
 
-    <header>
-        <nav>
-            <h2>Shashwat.</h2>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home" class="hero">
-        <h1>Hi, I'm Shashwat Kumar Sinha</h1>
-        <h2>Java Developer | AI Enthusiast</h2>
-        <p>
-            I build web applications and software solutions
-            using Java, Python, SQL, and AI technologies.
-        </p>
-        <a href="#projects" class="btn">View My Projects</a>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I have completed BCA, MCA, and CDAC in AI.
-            I am passionate about software development,
-            problem-solving, and artificial intelligence.
-        </p>
-    </section>
-
-    <section id="skills">
-        <h2>My Skills</h2>
-        <div class="skills">
-            <span>Java</span>
-            <span>Python</span>
-            <span>SQL</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Machine Learning</span>
-            <span>Git & GitHub</span>
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="status-dot"></span> SOFTWARE DEVELOPMENT · AI</div>
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Shashwat Kumar<br><span>Sinha.</span></h1>
+        <h2>Software Developer <span class="divider-mark">/</span> AI Enthusiast</h2>
+        <p class="hero-description">I build practical software solutions, full-stack web applications, and AI-powered systems—with a focus on clean architecture, useful features, and thoughtful engineering.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch <span>↗</span></a>
         </div>
+        <div class="hero-meta"><span><b>Based in</b> Lucknow, India</span><span class="meta-line"></span><span><b>Focus</b> Java · AI · Full Stack</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative software and AI illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="art-card code-card"><div class="window-dots"><i></i><i></i><i></i></div><div class="code-line"><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</div><div class="code-line indent"><span class="code-green">name</span>: <span class="code-yellow">'Shashwat'</span>,</div><div class="code-line indent"><span class="code-green">focus</span>: <span class="code-yellow">'Build & learn'</span>,</div><div class="code-line indent"><span class="code-green">mindset</span>: <span class="code-yellow">'Keep improving'</span></div><div class="code-line">};</div><div class="code-cursor"></div></div>
+        <div class="floating-chip chip-java"><span class="chip-icon">☕</span><span><b>Java</b><small>Backend development</small></span></div>
+        <div class="floating-chip chip-ai"><span class="chip-icon">✳</span><span><b>AI + Vision</b><small>Intelligent applications</small></span></div>
+        <div class="art-glow"></div>
+        <div class="art-caption">Curious mind. Practical solutions.</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-wheel"></span> SCROLL TO EXPLORE</a>
     </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>Building with <span>purpose.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-intro"><p class="lead">A software and AI developer interested in turning ideas into reliable, real-world applications.</p><p>My background combines computer applications, artificial intelligence, and hands-on project work. I enjoy solving problems across the stack—from database design and backend workflows to computer vision and API integration.</p><p>I value continuous learning, clear collaboration, and building technology that is both useful and maintainable.</p></div>
+        <div class="about-stats"><div class="stat-card"><span class="stat-number">MCA</span><span class="stat-label">Master's in Computer Applications</span></div><div class="stat-card"><span class="stat-number">PG</span><span class="stat-label">Diploma in Artificial Intelligence</span></div><div class="stat-card"><span class="stat-number">2</span><span class="stat-label">Featured projects from my resume</span></div><div class="stat-card"><span class="stat-number">AI +</span><span class="stat-label">Full-stack development focus</span></div></div>
+      </div>
+    </section>
 
-        <div class="project-container">
-            <div class="project-card">
-                <h3>Employee Management System</h3>
-                <p>Java, JDBC, MySQL</p>
-                <p>
-                    A system to manage employee records,
-                    update details, and search employees.
-                </p>
-                <a href="#">GitHub Link</a>
-            </div>
-
-            <div class="project-card">
-                <h3>E-commerce Website</h3>
-                <p>HTML, CSS, JavaScript</p>
-                <p>
-                    An online shopping website with product
-                    listings and a shopping cart.
-                </p>
-                <a href="#">GitHub Link</a>
-            </div>
-
-            <div class="project-card">
-                <h3>AI Chatbot</h3>
-                <p>Python, Flask, AI</p>
-                <p>
-                    A chatbot that responds to user questions
-                    using artificial intelligence.
-                </p>
-                <a href="#">GitHub Link</a>
-            </div>
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / TOOLKIT</p><h2>Skills & <span>technologies.</span></h2><p class="section-subtitle">Technologies and concepts I have worked with across development, AI, data, and deployment.</p></div>
+        <div class="skill-groups">
+          <article class="skill-group"><div class="skill-icon">⌘</div><h3>Languages & Web</h3><div class="tags"><span>Java</span><span>Python</span><span>JavaScript</span><span>C</span><span>C++</span><span>HTML</span><span>CSS</span><span>React</span></div></article>
+          <article class="skill-group"><div class="skill-icon">◈</div><h3>AI & Data</h3><div class="tags"><span>Machine Learning</span><span>NLP</span><span>Deep Neural Networks</span><span>Computer Vision</span><span>Image Processing</span><span>Data Mining</span></div></article>
+          <article class="skill-group"><div class="skill-icon">▤</div><h3>Databases & Backend</h3><div class="tags"><span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>SQL Server</span><span>JSP</span><span>JDBC</span><span>Flask</span></div></article>
+          <article class="skill-group"><div class="skill-icon">⌁</div><h3>Cloud & Tools</h3><div class="tags"><span>Docker</span><span>Kubernetes</span><span>AWS</span><span>Azure</span><span>GCP</span><span>Git</span><span>GitLab CI/CD</span></div></article>
         </div>
+      </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: your-email@example.com</p>
-        <p>
-            <a href="https://github.com/">GitHub</a> |
-            <a href="https://www.linkedin.com/">LinkedIn</a>
-        </p>
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects that turn ideas <span>into action.</span></h2><p class="section-subtitle">A closer look at two projects described in my resume.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured">
+          <div class="project-top"><span class="project-index">PROJECT 01</span><span class="project-symbol">⌘</span></div>
+          <div class="project-visual recruitment-visual"><div class="visual-window"><div class="visual-bar"><i></i><i></i><i></i><span>Recruitment Portal</span></div><div class="portal-layout"><div class="portal-side"><b>AZ</b><span></span><span></span><span></span></div><div class="portal-main"><div class="portal-heading">Candidate Dashboard</div><div class="portal-metrics"><i></i><i></i><i></i></div><div class="portal-row"></div><div class="portal-row short"></div><div class="portal-row"></div></div></div></div></div>
+          <h3>Army Recruitment Zone</h3><p class="project-type">Advanced Java Web Application</p>
+          <p class="project-description">A recruitment management system for candidate registration, application tracking, and result processing, built with a structured role-based workflow.</p>
+          <ul class="project-highlights"><li>Role-based access for Admin, Recruiter, and Candidate</li><li>MVC architecture with DAO layer and server-side validation</li><li>Indexed SQL queries and modular application design</li></ul>
+          <div class="project-tags"><span>Java Servlets</span><span>JSP</span><span>JDBC</span><span>MySQL</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-index">PROJECT 02</span><span class="project-symbol">◎</span></div>
+          <div class="project-visual vision-visual"><div class="vision-screen"><div class="vision-scene"><span class="detect-box detect-one"><b>PERSON</b></span><span class="detect-box detect-two"><b>OBJECT</b></span><div class="scene-sun"></div><div class="scene-ground"></div></div><div class="vision-footer"><span><i></i> LIVE INFERENCE</span><span>YOLO / SSD</span></div></div></div>
+          <h3>Real-time Object Detection</h3><p class="project-type">OpenCV & Deep Neural Networks</p>
+          <p class="project-description">A real-time detection pipeline that processes webcam and video feeds, annotates detected objects, and exposes inference through an API.</p>
+          <ul class="project-highlights"><li>OpenCV DNN with YOLO/SSD models and image preprocessing</li><li>Bounding boxes, adjustable thresholds, and non-maximum suppression</li><li>Model benchmarking, ONNX export, and Flask API deployment</li></ul>
+          <div class="project-tags"><span>Python</span><span>OpenCV</span><span>DNN</span><span>Flask</span><span>ONNX</span></div>
+        </article>
+      </div>
     </section>
 
-    <footer>
-        <p>© 2026 Shashwat Sinha | All Rights Reserved</p>
-    </footer>
+    <section class="section journey-section" id="journey">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">04 / MY JOURNEY</p><h2>Learning, one <span>step at a time.</span></h2></div>
+        <div class="journey-grid">
+          <div class="timeline-block"><h3>Education</h3><div class="timeline">
+            <article class="timeline-item"><span class="timeline-year">2025</span><div><h4>Post Graduate Diploma in Artificial Intelligence</h4><p>CDAC, Noida</p></div></article>
+            <article class="timeline-item"><span class="timeline-year">2024</span><div><h4>Master of Computer Applications (MCA)</h4><p>Babu Banarasi Das University, Lucknow</p></div></article>
+            <article class="timeline-item"><span class="timeline-year">2021</span><div><h4>Bachelor of Computer Applications (BCA)</h4><p>Himalayan University, Itanagar</p></div></article>
+            <article class="timeline-item"><span class="timeline-year">2018</span><div><h4>Senior Secondary (CBSE)</h4><p>Montfort Inter College, Lucknow</p></div></article>
+            <article class="timeline-item"><span class="timeline-year">2016</span><div><h4>High School (UP Board)</h4><p>Montfort Inter College, Lucknow</p></div></article>
+          </div></div>
+          <div class="timeline-block"><h3>Courses & publication</h3><div class="timeline">
+            <article class="timeline-item"><span class="timeline-year">2024</span><div><h4>Industrial Training in Core & Advanced Java</h4><p>Softpro India</p></div></article>
+            <article class="timeline-item"><span class="timeline-year">2023</span><div><h4>Data Structures & Algorithms in Java</h4><p>Uptec</p></div></article>
+            <article class="timeline-item"><span class="timeline-year">2022</span><div><h4>Web Designing · Python · Graphic Design</h4><p>NIIT — courses in web design, Python programming, and graphic design fundamentals</p></div></article>
+            <article class="timeline-item publication-item"><span class="timeline-year">2024</span><div><h4>Score Prediction in Indian Premier League through Data Mining</h4><p>Publication: IJEMT</p></div></article>
+          </div></div>
+        </div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">05 / CONTACT</p><h2>Have an idea?<br><span>Let's build something.</span></h2>
+        <p class="contact-copy">I'm open to connecting about software development, AI projects, and new opportunities.</p>
+        <a class="button button-primary contact-button" href="mailto:shashwatkumarsinha123@gmail.com">Say hello <span>↗</span></a>
+        <div class="contact-details"><a href="mailto:shashwatkumarsinha123@gmail.com">shashwatkumarsinha123@gmail.com</a><a href="tel:+919616769501">+91 9616769501</a><a href="https://github.com/shashwatkumarsinha123" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+        <p class="contact-location">Lucknow, Uttar Pradesh, India</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">S</span><span>Shashwat<span class="brand-dot">.</span></span></a><p>Designed with care · © <span id="year"></span> Shashwat Kumar Sinha</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
 </body>
 </html>
